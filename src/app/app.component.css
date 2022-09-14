@@ -1,0 +1,64 @@
+*, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 100vh;
+    text-align: center;
+}
+
+.selection p{
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+select{
+    padding: 5px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.http{
+    margin-top: 30px;
+}
+
+span{
+    font-weight: 600;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+td,
+th {
+    border: 2px solid #999;
+    padding: 0.5rem;
+}
+.editable{
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{
+    margin: 10px auto;
+    padding: 8px;
+    width: 50%;
+}
